@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class = "navbar open">
-        <img src = "./style/public/Barcelona-Logo.png" width = 150px height = 100 alt = "logo">
+        <iframe width = 150px height = 100 src="https://lottie.host/embed/70c9125c-3238-4dc2-838c-f435fa89938e/b5iLN6OGFD.json"></iframe>
         <ul>
             <li><a href = "index.html">Home</a></li>
             <li><a href = "video.html">Video</a></li>
@@ -38,7 +38,9 @@
             <p>Place of birth: Rosario, Argentina.</p>
             <p>Profession: Footballer</p>
         </div>
-        <video src = "style/public/y2mate.com - This is me Leo Messi_480p.mp4" controls width = 600 height = 400></video>
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+         <source src="style/public/y2mate.com - This is me Leo Messi_480p.mp4" type="video/mp4"></source>
+           </video>   
             <div class = "interests">
                 <p>Interests: Football, spending time with family, video games.</p>
                 <p>Hobbies: Playing football with his kids, exploring new cities.</p>
@@ -47,13 +49,15 @@
             </div>
         </main>
     <section>
-        <h2>Essay</h2>
+        <section class="section-content">
+                    <h2>Essay</h2>
         <p>Lionel Messi is widely regarded as one of the greatest footballers of all time. 
                     Standing at 1.70 meters, his stature on the field is anything but small. 
                     His incredible dribbling skills and close control of the ball leave defenders in his wake. 
                     Messi's vision and football intelligence make him a playmaker as well as a prolific goal-scorer, 
                     capable of changing the course of any match with a single touch. His humility off the field and his 
                     relentless dedication on it have earned him the love of fans worldwide, transcending rivalries and borders.</p>
+        </section>
     </section>
 
     <footer style="background-color: black;">
